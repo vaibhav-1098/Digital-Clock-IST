@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Digital Clock - IST</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head><body>
+<!-- START -->
+
+<h1 class="text-center m-4 text-3xl underline">
+    Digital Clock
+    <br>
+    Indian Standard Time
+</h1>
+
+<!-- date -->
+<div class="display1 text-center relative top-16 text-4xl text-blue-600">
+    02-MAY-2024
+</div>
+
+<!-- time -->
+<div class="flex justify-center">
+    <div class="display2 mt-20 text-center text-5xl w-fit rounded-md p-3 border-4 ">
+        00:00:00
+    </div>
+</div>
+
+<!-- animation -->
+<div class="bg-slate-800 w-10 h-6 rounded-sm mx-auto relative top-16"></div>
+<div class="bg-cyan-200 h-40 w-28 mx-auto mt-16 flex place-items-end rounded-md">
+    <div class="bg-blue-500 w-full rounded-sm" id="bar"></div>
+</div>
+
+
+<!-- END -->
+<script src="script.js"></script>
+</body></html>
